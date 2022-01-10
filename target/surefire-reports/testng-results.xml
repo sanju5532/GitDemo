@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102674" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:27:45 IST">
+    <groups>
+    </groups>
+    <test name="Validate appTest" duration-ms="16" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:26:03 IST">
+    </test> <!-- Validate appTest -->
+    <test name="Validate Navigationbar" duration-ms="90004" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:27:33 IST">
+      <class name="E2EProject.DemoE2E.ValidateNavBar">
+        <test-method status="PASS" signature="Initializer()[pri:0, instance:E2EProject.DemoE2E.ValidateNavBar@be68757]" name="Initializer" is-config="true" duration-ms="78641" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:27:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initializer -->
+        <test-method status="PASS" signature="NavBarTitlevalidate()[pri:0, instance:E2EProject.DemoE2E.ValidateNavBar@be68757]" name="NavBarTitlevalidate" duration-ms="1199" started-at="2021-12-16T11:27:21 IST" finished-at="2021-12-16T11:27:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavBarTitlevalidate -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:E2EProject.DemoE2E.ValidateNavBar@be68757]" name="TearDown" is-config="true" duration-ms="10149" started-at="2021-12-16T11:27:23 IST" finished-at="2021-12-16T11:27:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- E2EProject.DemoE2E.ValidateNavBar -->
+    </test> <!-- Validate Navigationbar -->
+    <test name="Validate Title" duration-ms="90011" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:27:33 IST">
+      <class name="E2EProject.DemoE2E.ValidteTitle">
+        <test-method status="PASS" signature="Initializer()[pri:0, instance:E2EProject.DemoE2E.ValidteTitle@1f53a5dc]" name="Initializer" is-config="true" duration-ms="78811" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:27:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initializer -->
+        <test-method status="PASS" signature="Titlevalidate()[pri:0, instance:E2EProject.DemoE2E.ValidteTitle@1f53a5dc]" name="Titlevalidate" duration-ms="1022" started-at="2021-12-16T11:27:22 IST" finished-at="2021-12-16T11:27:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Titlevalidate -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:E2EProject.DemoE2E.ValidteTitle@1f53a5dc]" name="TearDown" is-config="true" duration-ms="10155" started-at="2021-12-16T11:27:23 IST" finished-at="2021-12-16T11:27:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- E2EProject.DemoE2E.ValidteTitle -->
+    </test> <!-- Validate Title -->
+    <test name="Validate Home Page" duration-ms="102674" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:27:45 IST">
+      <class name="E2EProject.DemoE2E.HomePage">
+        <test-method status="PASS" signature="Initializer()[pri:0, instance:E2EProject.DemoE2E.HomePage@268f106e]" name="Initializer" is-config="true" duration-ms="53812" started-at="2021-12-16T11:26:03 IST" finished-at="2021-12-16T11:26:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initializer -->
+        <test-method status="PASS" signature="basePageNav(java.lang.String,java.lang.String)[pri:0, instance:E2EProject.DemoE2E.HomePage@268f106e]" name="basePageNav" duration-ms="40253" started-at="2021-12-16T11:26:57 IST" data-provider="getData" finished-at="2021-12-16T11:27:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanju@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNav -->
+        <test-method status="PASS" signature="basePageNav(java.lang.String,java.lang.String)[pri:0, instance:E2EProject.DemoE2E.HomePage@268f106e]" name="basePageNav" duration-ms="6669" started-at="2021-12-16T11:27:37 IST" data-provider="getData" finished-at="2021-12-16T11:27:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjaykumar@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNav -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:E2EProject.DemoE2E.HomePage@268f106e]" name="TearDown" is-config="true" duration-ms="1842" started-at="2021-12-16T11:27:44 IST" finished-at="2021-12-16T11:27:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- E2EProject.DemoE2E.HomePage -->
+    </test> <!-- Validate Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>
